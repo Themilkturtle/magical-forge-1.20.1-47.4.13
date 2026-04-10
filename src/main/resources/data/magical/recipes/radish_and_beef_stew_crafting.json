@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "magical:radish"
+    }
+  ],
+  "result": {
+    "item": "magical:radish_and_beef_stew",
+    "count": 1
+  }
+}

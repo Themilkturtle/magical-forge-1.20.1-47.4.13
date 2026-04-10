@@ -22,10 +22,25 @@ public class ModFoods {
     public static final FoodProperties RADISH = new FoodProperties.Builder().nutrition(2).fast()
             .saturationMod(0.5f).build();
 
+    public static final FoodProperties CORN_COB = new FoodProperties.Builder().nutrition(3).fast()
+            .saturationMod(1f).build();
+
+    public static final FoodProperties CUT_CORN = new FoodProperties.Builder().nutrition(3).fast()
+            .saturationMod(0.9f).build();
+
+    public static final FoodProperties COOKED_CORN = new FoodProperties.Builder().nutrition(6).fast()
+            .saturationMod(1.9f).build();
+
     public static final FoodProperties RADISH_AND_BEEF_STEW = new FoodProperties.Builder().nutrition(10).fast()
             .saturationMod(1f).build();
 
     public static final FoodProperties MINI_LEMON_TART = new FoodProperties.Builder().nutrition(1).fast()
+            .saturationMod(0.5f).build();
+
+    public static final FoodProperties ROOT_BEER_MUG = new FoodProperties.Builder().nutrition(1).fast()
+            .saturationMod(0.5f).build();
+
+    public static final FoodProperties GREENTEA = new FoodProperties.Builder().nutrition(1).fast()
             .saturationMod(0.5f).build();
 
     public static final FoodProperties TORCHFLOWER_OIL = new FoodProperties.Builder().nutrition(-1).fast()
@@ -49,6 +64,10 @@ public class ModFoods {
 
     public static final FoodProperties ALCOHOLS = new FoodProperties.Builder().nutrition(2).fast()
             .saturationMod(1f).effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 200), 0.2f).alwaysEat().build();
+
+
+    public static final FoodProperties BLACKSLUDGE = new FoodProperties.Builder().nutrition(2).fast()
+            .saturationMod(1f).effect(() -> new MobEffectInstance(MobEffects.WITHER, 200), 0.2f).alwaysEat().build();
 
 
 
