@@ -82,6 +82,24 @@
   "item.magical.basic_wood_staff_club": "Club Wooden Staff",
   "item.magical.basic_wood_staff_blade": "Blade Wooden Staff",
   "item.magical.basic_wood_staff_hook": "Hook Wooden Staff",
+
+
+  // staffs
+
+  "item.magical.oak_club_staff": "Oak Club Staff",
+  "item.magical.acacia_club_staff": "Acacia Club Staff",
+  "item.magical.bamboo_club_staff": "Bamboo Club Staff",
+  "item.magical.birch_club_staff": "Birch Club Staff",
+  "item.magical.cherry_club_staff": "Cherry Club Staff",
+  "item.magical.crimson_club_staff": "Crimson Club Staff",
+  "item.magical.dark_oak_club_staff": "Dark Oak Club Staff",
+  "item.magical.jungle_club_staff": "Jungle Club Staff",
+  "item.magical.spruce_club_staff": "Spruce Club Staff",
+  "item.magical.mangrove_club_staff": "Mangrove Club Staff",
+  "item.magical.Warped_club_staff": "Warped Club Staff",
+
+
+
   "item.magical.radish_and_beef_stew": "Radish and beef stew",
   "tooltip.magical.staff_type_basic.tooltip": "§9§o-Basic Staff",
 
@@ -95,7 +113,8 @@
   "block.magical.bulb_vine": "Bulb Vine",
   "block.magical.foeder": "Foeder",
 
-  "creativetab.magical_tab": "Magical"
+  "creativetab.magical_tab": "Magical",
+  "creativetab.magical_tab_staffs": "Magical Staffs"
 
 
 }

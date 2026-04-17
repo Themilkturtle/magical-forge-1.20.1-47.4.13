@@ -98,6 +98,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.BASIC_WOOD_STAFF_BLADE.get());
                         pOutput.accept(ModItems.BASIC_WOOD_STAFF_HOOK.get());
                         pOutput.accept(ModItems.BASIC_WOOD_STAFF_CLUB.get());
+                        pOutput.accept(ModItems.OAK_CLUB_STAFF.get());
+                        pOutput.accept(ModItems.SPRUCE_CLUB_STAFF.get());
+                        pOutput.accept(ModItems.ACACIA_CLUB_STAFF.get());
                         pOutput.accept(ModItems.FISH_STICKS.get());
                         pOutput.accept(ModItems.STAFF_ROD.get());
 
@@ -110,6 +113,31 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.SPELL_PAPER.get());
                         pOutput.accept(ModBlocks.BULB_VINE.get());
 
+
+                    })
+
+                    .build());
+    public static final RegistryObject<CreativeModeTab> STAFF_TAB = CREATIVE_MOD_TABS.register("magical_tab_staffs",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BASIC_WOOD_STAFF_HOOK.get()))
+
+                    .title(Component.translatable("creativetab.magical_tab_staffs"))
+                    .displayItems((pParameters, pOutput) -> {
+
+                        pOutput.accept(ModItems.BASIC_WOOD_STAFF_CIRCLE.get());
+                        pOutput.accept(ModItems.BASIC_WOOD_STAFF_BLADE.get());
+                        pOutput.accept(ModItems.BASIC_WOOD_STAFF_HOOK.get());
+                        pOutput.accept(ModItems.BASIC_WOOD_STAFF_CLUB.get());
+                        pOutput.accept(ModItems.OAK_CLUB_STAFF.get());
+                        pOutput.accept(ModItems.SPRUCE_CLUB_STAFF.get());
+                        pOutput.accept(ModItems.ACACIA_CLUB_STAFF.get());
+                        pOutput.accept(ModItems.DARK_OAK_CLUB_STAFF.get());
+                        pOutput.accept(ModItems.BAMBOO_CLUB_STAFF.get());
+                        pOutput.accept(ModItems.BIRCH_CLUB_STAFF.get());
+                        pOutput.accept(ModItems.CHERRY_CLUB_STAFF.get());
+                        pOutput.accept(ModItems.CRIMSON_CLUB_STAFF.get());
+                        pOutput.accept(ModItems.WARPED_CLUB_STAFF.get());
+                        pOutput.accept(ModItems.JUNGLE_CLUB_STAFF.get());
+                        pOutput.accept(ModItems.MANGROVE_CLUB_STAFF.get());
 
                     })
 

@@ -33,14 +33,14 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
-                new ResourceLocation(Magical.MOD_ID,"item/" + item.getId().getPath()));
+                new ResourceLocation(Magical.MOD_ID, "item/" + item.getId().getPath()));
     }
-
 
 
     private ItemModelBuilder simpleBlockItemBlockTexture(RegistryObject<Block> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
-                new ResourceLocation(Magical.MOD_ID,"block/" + item.getId().getPath()));
+                new ResourceLocation(Magical.MOD_ID, "block/" + item.getId().getPath()));
     }
+
 }

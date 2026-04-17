@@ -180,7 +180,45 @@ public class ModItems {
     public static final RegistryObject<Item> BASIC_WOOD_STAFF_HOOK = ITEMS.register("basic_wood_staff_hook",
             () -> new StaffTypeSystemItem(new Item.Properties().stacksTo(1)));
 
+// Stafss
 
+    public static final RegistryObject<Item> OAK_CLUB_STAFF = ITEMS.register("oak_club_staff",
+            () -> new StaffTypeSystemItem(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> ACACIA_CLUB_STAFF = ITEMS.register("acacia_club_staff",
+            () -> new StaffTypeSystemItem(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> SPRUCE_CLUB_STAFF = ITEMS.register("spruce_club_staff",
+            () -> new StaffTypeSystemItem(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> BAMBOO_CLUB_STAFF = ITEMS.register("bamboo_club_staff",
+            () -> new StaffTypeSystemItem(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> BIRCH_CLUB_STAFF = ITEMS.register("birch_club_staff",
+            () -> new StaffTypeSystemItem(new Item.Properties().stacksTo(1)));
+
+
+    public static final RegistryObject<Item> CHERRY_CLUB_STAFF = ITEMS.register("cherry_club_staff",
+            () -> new StaffTypeSystemItem(new Item.Properties().stacksTo(1)));
+
+
+    public static final RegistryObject<Item> CRIMSON_CLUB_STAFF = ITEMS.register("crimson_club_staff",
+            () -> new StaffTypeSystemItem(new Item.Properties().stacksTo(1)));
+
+
+    public static final RegistryObject<Item> DARK_OAK_CLUB_STAFF = ITEMS.register("dark_oak_club_staff",
+            () -> new StaffTypeSystemItem(new Item.Properties().stacksTo(1)));
+
+
+    public static final RegistryObject<Item> JUNGLE_CLUB_STAFF = ITEMS.register("jungle_club_staff",
+            () -> new StaffTypeSystemItem(new Item.Properties().stacksTo(1)));
+
+
+    public static final RegistryObject<Item> MANGROVE_CLUB_STAFF = ITEMS.register("mangrove_club_staff",
+            () -> new StaffTypeSystemItem(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> WARPED_CLUB_STAFF = ITEMS.register("warped_club_staff",
+            () -> new StaffTypeSystemItem(new Item.Properties().stacksTo(1)));
 
 
 

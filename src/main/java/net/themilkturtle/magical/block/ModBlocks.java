@@ -25,7 +25,6 @@ public class ModBlocks {
 
 
 
-
     public static final RegistryObject<Block> BULB_VINE_PLANT = registerBlock("bulb_vine_plant",
             () -> new BulbVinesPlantBlock(BlockBehaviour.Properties.copy(Blocks.TWISTING_VINES_PLANT).noOcclusion()));
 
